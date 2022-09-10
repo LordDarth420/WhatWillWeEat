@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="WhatWillWeEat.Views.AddPage"
+             Title="Добавяне на ястие">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="addButton" IconImageSource="tick.png" Clicked="addButton_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="2">
+                <Label FontSize="Medium" Text="Име:"/>
+                <Entry x:Name="nameEntry"/>
+                <Label FontSize="Medium" Text="Съставки:"/>
+                <Editor x:Name="itemsEditor" AutoSize="TextChanges"/>
+                <Label FontSize="Medium" Text="Начин на приготвяне:"/>
+                <Editor x:Name="recipeEditor" VerticalOptions="Fill" AutoSize="TextChanges"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
