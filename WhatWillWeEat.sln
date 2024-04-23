@@ -1,17 +1,16 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatWillWeEat.Android", "WhatWillWeEat\WhatWillWeEat.Android\WhatWillWeEat.Android.csproj", "{3A0BCF8C-9656-4AB6-B52C-E00A001DF0AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatWillWeEat.Android", "WhatWillWeEat\WhatWillWeEat.Android\WhatWillWeEat.Android.csproj", "{3A0BCF8C-9656-4AB6-B52C-E00A001DF0AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatWillWeEat.iOS", "WhatWillWeEat\WhatWillWeEat.iOS\WhatWillWeEat.iOS.csproj", "{FA3C0A27-EBB4-4980-803D-F255E29DAC4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatWillWeEat.iOS", "WhatWillWeEat\WhatWillWeEat.iOS\WhatWillWeEat.iOS.csproj", "{FA3C0A27-EBB4-4980-803D-F255E29DAC4E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatWillWeEat", "WhatWillWeEat\WhatWillWeEat\WhatWillWeEat.csproj", "{E48D7DB1-C33A-4B70-B9F9-079F23AFB2E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatWillWeEat_DatabaseTests", "WhatWillWeEat_DatabaseTests\WhatWillWeEat_DatabaseTests.csproj", "{6C4624CC-8DF3-4A7E-B438-95276F32D5D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatWillWeEat_DatabaseTests", "WhatWillWeEat_DatabaseTests\WhatWillWeEat_DatabaseTests.csproj", "{6C4624CC-8DF3-4A7E-B438-95276F32D5D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartUp", "StartUp\StartUp.csproj", "{93580733-5F2D-47C3-B75E-FB139BB5BE16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StartUp", "StartUp\StartUp.csproj", "{93580733-5F2D-47C3-B75E-FB139BB5BE16}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E48D7DB1-C33A-4B70-B9F9-079F23AFB2E9} = {E48D7DB1-C33A-4B70-B9F9-079F23AFB2E9}
 	EndProjectSection
