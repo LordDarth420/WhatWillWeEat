@@ -4,5 +4,10 @@
     <SelectedDevice>Local Device</SelectedDevice>
     <SelectedPlatformGroup>LocalDevice</SelectedPlatformGroup>
     <ActiveDebugProfile>Local Device</ActiveDebugProfile>
+    <ActiveDebugFramework>net8.0-ios</ActiveDebugFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(TargetPlatformIdentifier)'=='iOS'">
+    <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
+    <PlatformTarget>arm64</PlatformTarget>
   </PropertyGroup>
 </Project>
